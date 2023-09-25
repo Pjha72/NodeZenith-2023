@@ -13,6 +13,7 @@ const app = express();
 const publicpath = path.join(__dirname,'public');
 // console.log(publicpath);
 
+// Middleware
 app.use(express.static(publicpath));
 
 app.listen(4000,()=>{
